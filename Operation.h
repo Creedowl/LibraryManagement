@@ -12,7 +12,13 @@ class Operation {
 private:
     BookList list;
 
-    void action(const std::function<void(Book&)> &f);
+    /* this function check your input type and help to find
+     * the book via bookId or bookName, and show all books
+     *
+     * receive a function as param and will call it if find
+     * target book
+     * */
+    void action(const std::function<void(Book &)> &f);
 
 public:
     // constructor
