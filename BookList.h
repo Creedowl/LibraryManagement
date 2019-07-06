@@ -8,6 +8,7 @@
 #include <vector>
 #include <ostream>
 #include <optional>
+#include <functional>
 #include "Book.h"
 
 typedef std::optional<std::reference_wrapper<Book>> op;

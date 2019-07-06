@@ -7,6 +7,7 @@
 
 
 #include "BookList.h"
+#include <functional>
 
 class Operation {
 private:
